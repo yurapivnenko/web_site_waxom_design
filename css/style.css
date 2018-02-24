@@ -313,6 +313,7 @@ header {
 }
 
 .btn__projects {
+	cursor: pointer;
 	display: inline-block;
 	font-size: 14px;
 	border-radius: 3px;
@@ -328,7 +329,7 @@ header {
 
 .latest-projects__items {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	flex-wrap: wrap;
 	margin-top: 40px;
 	margin-bottom: 10px;
@@ -843,4 +844,43 @@ header {
 
 .footer__link:hover {
 	color: #c7b299;
+}
+
+@media (max-width: 1200px) {
+	.wrapper {
+		padding: 0 10px;
+	}
+
+	.excellent-for-mobile__features li {
+		margin-left: 20px;
+		line-height: 25px;
+	}
+
+	.wrapper__counters {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+	.partners__logos-img {
+		margin-left: 30px;
+	}
+
+	.footer__about-wacom {
+		margin-top: -20px;
+		padding-right: 10px;
+	}
+
+	.footer__recent-posts {
+		padding-right: 10px;
+		text-align: center;
+	}
+
+	.footer__twitter {
+		padding-right: 10px;
+		text-align: center;
+	}
+
+	.dribbble-widget__img {
+		justify-content: center;
+	}
 }
